@@ -1,0 +1,108 @@
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GamePros</title>
+    <link rel="stylesheet" type="text/css" href="Store_Front.css">
+</head>
+<body img src="img/shopping-mall.jpg" alt="Video Game tournament in Mall">
+    <header>
+        <div class="nav_main">
+            <select aria-describedby="searchDropDownDescription" class="nav-search-dropdown">
+                <option selected="selected" value="search-alias=aps">Menu</option>
+                <option value="search-alias=legacy">Legacy</option>
+                <option value="search-alias=console">Console Wars</option>
+                <option value="search-alias=new">Games</option>
+                <option value="search-alias=apparel">Apparel</option>
+                <option value="search-alias=hardware">Hardware</option>
+            </select>
+            <nav id="utilityMenu">
+                <form class="signin">
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+                    <label for="psw"><b>Passowrd</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                    <button type="submit">Login</button>
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember">Remember Me
+                    </label>
+                </form>
+                <button id="cart_button">
+                    <i img src="https://img.icons8.com/cotton/64/000000/shopping-cart--v1.png"></i>
+                </button>
+            </nav>
+            <h1 id="nav_title">GamePros</h1>   
+        </div>
+    </header>
+    <div id="side_container_left">
+        <form action class="form-container">
+            <h2 id="chat_title">Support Chat</h2>
+                <img src="https://img.icons8.com/pastel-glyph/64/000000/online-support.png" id="chat_icon"/>
+                <textarea placeholder="How may we help you" name="msg" required></textarea>
+                <input id="chat_window" placeholder="Please describe your issue">
+                <button type="submit" class="btn">Send</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+    </div>
+    <div class="item_multi_container">
+        <h1>From Old to New</h1>
+        <div class="item_container">
+            <image src="img/dreamcast.jpg" class="item_pic"></image>
+            <h3>Legacy Systems</h3>
+            <p class="item_price">$49.99- $69.99</p>
+            <div>
+                <button class="add_button">Add to Cart</button>
+            </div>
+        </div>
+        <div class="item_container">
+            <image src="img/ps4 controller.jpg" class="item_pic"></image>
+            <h3>Playstation 4 Controllers</h3>
+            <p class="item_price">$59.99 - $79.99</p>
+            <div>
+                <button class="add_button">Add to Cart</button>
+            </div>
+        </div>
+        <div class="item_container">
+            <image src="img/xbox.jpg" class="item_pic"></image>
+            <h3>Xbox Controllers</h3>
+            <p class="item_price">$59.99 - $79.99</p>
+            <div>
+                <button class="add_button">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="item_multi_container">
+        <div class="item_container">
+            <image src="img/gaming mouse.jpg" class="item_pic"></image>
+            <h3>PC Accessories</h3>
+            <p class="item_price">$19.99 - $99.99</p>
+            <div>
+                <button class="add_button">Add to Cart</button>
+            </div>
+        </div>
+        <div class="item_container">
+            <image src="img/nintendo.jpg" class="item_pic"></image>
+            <h3>Nintendo Switches</h3>
+            <p class="item_price">$299.99</p>
+            <div>
+                <button class="add_button">Add to Cart</button>
+            </div>
+        </div>
+        <div class="item_container">
+            <image src="img/gamecube.jpg" class="item_pic"></image>
+            <h3>Gamecube Style Controllers</h3>
+            <p class="item_price">$19.99 - $49.99</p>
+            <div>
+                <button class="add_button">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <span>&copy;2020</span>
+        <ul id="menuFooter">
+
+        </ul>
+    </footer>
+</body>
+</html>
